@@ -18,14 +18,14 @@ All colors MUST be HSL.
     --popover: 220 20% 8%;
     --popover-foreground: 0 0% 98%;
 
-    /* Primary: Electric Purple - represents energy and motivation */
-    --primary: 270 91% 65%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 270 100% 75%;
+    /* Primary: Warm Amber - represents energy and motivation */
+    --primary: 45 96% 64%;
+    --primary-foreground: 0 0% 0%;
+    --primary-glow: 45 96% 74%;
 
-    /* Secondary: Vibrant Blue - represents achievement */
-    --secondary: 220 100% 60%;
-    --secondary-foreground: 0 0% 100%;
+    /* Secondary: Deep Amber - represents achievement */
+    --secondary: 45 86% 54%;
+    --secondary-foreground: 0 0% 0%;
 
     /* Success: Neon Green - represents completed tasks */
     --success: 142 84% 50%;
@@ -38,28 +38,28 @@ All colors MUST be HSL.
     --muted: 220 20% 12%;
     --muted-foreground: 220 10% 60%;
 
-    --accent: 270 91% 65%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 96% 64%;
+    --accent-foreground: 0 0% 0%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
     --border: 220 20% 15%;
     --input: 220 20% 12%;
-    --ring: 270 91% 65%;
+    --ring: 45 96% 64%;
 
     /* Premium gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(270 91% 65%), hsl(220 100% 60%));
+    --gradient-primary: linear-gradient(135deg, hsl(45 96% 64%), hsl(45 86% 54%));
     --gradient-success: linear-gradient(135deg, hsl(142 84% 50%), hsl(120 84% 55%));
     --gradient-warning: linear-gradient(135deg, hsl(45 100% 60%), hsl(35 100% 65%));
     --gradient-card: linear-gradient(135deg, hsl(220 20% 8% / 0.8), hsl(220 20% 12% / 0.6));
-    --gradient-hero: linear-gradient(135deg, hsl(270 91% 65% / 0.1), hsl(220 100% 60% / 0.1));
+    --gradient-hero: linear-gradient(135deg, hsl(45 96% 64% / 0.1), hsl(45 86% 54% / 0.1));
 
     /* Shadows with glow effects */
-    --shadow-primary: 0 10px 40px hsl(270 91% 65% / 0.3);
+    --shadow-primary: 0 10px 40px hsl(45 96% 64% / 0.3);
     --shadow-success: 0 10px 40px hsl(142 84% 50% / 0.3);
     --shadow-card: 0 8px 32px hsl(220 20% 0% / 0.3);
-    --shadow-glow: 0 0 60px hsl(270 91% 65% / 0.4);
+    --shadow-glow: 0 0 60px hsl(45 96% 64% / 0.4);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
